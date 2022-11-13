@@ -103,8 +103,10 @@ div.video > iframe {
     height: 90%;
 }
 
-img{
+img.sds90{
     border-radius: 50%;
+    width: 40px;
+    height: 40px;
 }
 
 footer{
