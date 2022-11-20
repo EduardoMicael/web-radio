@@ -84,23 +84,47 @@ main {
     border-bottom-right-radius: 10px;
 }
 
-div.video {
-    background-color: white;
-    margin: -20px -20px 30px -20px;
-    padding: 20px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    padding-bottom: 90%;
-    position: relative;
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding: 30px;
+    font-family: var(--fonte-suporte);
+    font-size: 2.5vw;
 }
 
-div.video > iframe {
-    position: absolute;
-    border-radius: 10px;
-    top: 5%;
-    left: 5%;
-    width: 90%;
-    height: 90%;
+section > p { 
+    padding-bottom: 2em;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: rgba(15, 14, 14, 0.397);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.521);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.imagem > p {
+    display:inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.507);
+    text-shadow: 1px 1px 0px black;
+}
+
+section#img01 {
+    background-image: url("https://media.tenor.com/_yFLs1OWgBAAAAAC/vinyl-disc-dance-music.gif");
+    background-position: right center;
+}
+
+section#img02 {
+    background-image: url("https://media.tenor.com/-9KKaj0TlHMAAAAC/ddd.gif");
+    background-position: right center;
 }
 
 img.sds90{
