@@ -58,7 +58,7 @@ nav {
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.253);
 }
 
-nav > a {
+nav a {
     color: var(--cor1);
     padding: 10px;
     border-radius: 5px;
@@ -67,9 +67,18 @@ nav > a {
     transition: .7s;
 }
 
-nav > a:hover {
+nav a:hover {
     background-color: var(--cor4);
     color: var(--cor5);
+}
+article a, footer a {
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+article a:hover, footer a:hover {
+    text-decoration: underline;
 }
 
 main {
