@@ -99,11 +99,15 @@ section {
     line-height: 2em;
     padding: 30px;
     font-family: var(--fonte-suporte);
-    font-size: 2em;
+    font-size: 1.7em;
     text-align: justify;
     text-indent: 30px;
 }
 
+ li {
+    list-style-position: inside;
+    list-style-type: '\00A0\00A0\00A0' ;
+}
 
 img.sds90{
     border-radius: 50%;
