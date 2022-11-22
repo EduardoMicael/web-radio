@@ -142,6 +142,16 @@ img.sds90{
     height: 40px;
 }
 
+img.sds-sigma-7{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+p#esteregg{
+    color: white;
+}
+
 footer{
     background-color: var(--cor3);
     border-top-left-radius: 10px;
