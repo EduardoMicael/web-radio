@@ -85,7 +85,7 @@ main {
 }
 
 article a, footer a {
-    color: black;
+    color: var(--cor4);
     text-decoration: none;
     font-weight: bolder;
 }
