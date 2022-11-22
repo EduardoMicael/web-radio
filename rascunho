@@ -1,0 +1,8 @@
+<li>
+    <p>
+    Artista
+    <a href="link musica" target="_blank"> Música </a>
+    <a href="link SF" target="_blank"> <img src="https://open.spotifycdn.com/cdn/images/favicon32.8e66b099.png" alt="Icone Spotify"></a>
+    <a href="link LT" target="_blank"> <img src="https://akamai.sscdn.co/letras/static/img/favicon.vbc34a3b.ico" alt="Icone Letras"></a>
+    </p>
+</li>
