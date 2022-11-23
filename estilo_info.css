@@ -39,6 +39,14 @@ header > h1 {
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.253);
 }
 
+h2 {
+    font-family: var(--fonte-suporte);
+    font-size: 1.5em;
+    color: var(--cor4);
+    text-align: center;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.103);
+}
+
 header > p {
     font-family: var(--fonte-suporte);
     font-size: 1.5em;

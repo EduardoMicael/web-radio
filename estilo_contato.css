@@ -113,16 +113,32 @@ h2 {
 }
 
 div.video {
-    background-color: white;
-    margin: -20px -20px 30px -20px;
+    background-color: #BFCBFF;
+    margin: 20px 20px 20px 20px;
     padding: 20px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-radius: 10px;
     padding-bottom: 90%;
     position: relative;
 }
 
 div.video > iframe {
+    position: absolute;
+    border-radius: 10px;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+div.formulario {
+    background-color: #BFCBFF;
+    margin: -40px 20px 20px 20px;
+    border-radius: 10px;
+    padding-bottom: 90%;
+    position: relative;
+}
+
+div.formulario > iframe {
     position: absolute;
     border-radius: 10px;
     top: 5%;
@@ -139,7 +155,7 @@ section {
     font-family: var(--fonte-suporte);
 }
 
-section > p, li{ 
+section > p{ 
     padding-bottom: 2em;
     font-size: 1.3em;
     text-align: center;

@@ -83,13 +83,23 @@ main {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
+h2 {
+    font-family: var(--fonte-suporte);
+    font-size: 1.5em;
+    color: var(--cor4);
+    text-align: center;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.103);
+}
+
+h2 {
+    font-family: var(--fonte-suporte);
+    text-align: center;
+}
 
 div.video {
-    background-color: white;
-    margin: -20px -20px 30px -20px;
-    padding: 20px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    background-color: #BFCBFF;
+    margin: 20px 20px 20px 20px;
+    border-radius: 10px;
     padding-bottom: 90%;
     position: relative;
 }
@@ -104,9 +114,9 @@ div.video > iframe {
 }
 
 div.comentario {
-    background-color: white;
+    background-color: #BFCBFF;
     margin: 20px 20px 30px 20px;
-    padding: auto;
+    padding: 20px;
     border-radius: 10px;
     padding-bottom: 40%;
     position: relative;
