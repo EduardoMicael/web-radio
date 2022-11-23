@@ -34,7 +34,7 @@ header {
 header > h1 {
     color: white;
     font-family: var(--fonte-suporte);
-    font-size: 5.5vw;
+    font-size: 3em;
     margin-bottom: 20px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.253);
 }
@@ -119,8 +119,13 @@ section {
     line-height: 2em;
     padding: 30px;
     font-family: var(--fonte-suporte);
-    font-size: 1.7em;
-    text-align: justify;
+
+}
+
+section > p, li{ 
+    padding-bottom: 2em;
+    font-size: 1.3em;
+    text-align: center;
     text-indent: 30px;
 }
 
@@ -128,12 +133,6 @@ li {
     
     list-style-position: inside;
     list-style-type: none ;
-}
-
-li > p {
-    text-align: center;
-    font-size: 4vh;
-    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.103);
 }
 
 img.sds90{
@@ -150,6 +149,7 @@ img.sds-sigma-7{
 
 p#esteregg{
     color: white;
+    font-size: 0.5em;
 }
 
 footer{
