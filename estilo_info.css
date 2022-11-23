@@ -112,8 +112,8 @@ section {
 }
 
 section > p { 
-    padding-bottom: 2em;
-    font-size: 1.4em;
+    padding-bottom: 1em;
+    font-size: 1em;
     text-align: justify;
     text-indent: 30px;
 }
