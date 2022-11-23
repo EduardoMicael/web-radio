@@ -139,13 +139,15 @@ section.imagem > p {
 }
 
 section#img01 {
-    background-image: url("https://media.tenor.com/_yFLs1OWgBAAAAAC/vinyl-disc-dance-music.gif");
-    background-position: right center;
+    background-color: #BFCBFF;
+    background-image: url("https://media.tenor.com/JP7kHyaCOEcAAAAC/lel-music.gif");
+    background-position: center center;
 }
 
 section#img02 {
-    background-image: url("https://media.tenor.com/-9KKaj0TlHMAAAAC/ddd.gif");
-    background-position: right center;
+    background-color: #BFCBFF;
+    background-image: url("https://media.tenor.com/aj2m5lTme9cAAAAC/darkville-rpg.gif");
+    background-position: center center;
 }
 
 img.sds90{
