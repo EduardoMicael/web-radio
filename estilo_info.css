@@ -122,6 +122,11 @@ section.normal {
     background-color: white;
     color: black;
 }
+section.imagem > p {
+    padding-bottom: 1em;
+    font-size: 1em;
+    text-align: left;
+}
 
 section.imagem {
     background-color: rgba(15, 14, 14, 0.397);

@@ -72,6 +72,27 @@ nav > a:hover {
     color: var(--cor5);
 }
 
+nav#sds {
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgb(255, 255, 255);
+}
+
+nav#sds > a {
+    color: var(--cor5);
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: .7s;
+}
+
+nav#sds > a:hover {
+    background-color: var(--cor4);
+    color: var(--cor5);
+}
+
 main {
     min-width: 300px;
     max-width: 1000px;
@@ -130,6 +151,14 @@ div.comentario > iframe {
     left: 5%;
     width: 90%;
     height: 90%;
+}
+
+img.sds-sigma-7{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: #BFCBFF;
+    background-position: center center;
 }
 
 img.sds90{
